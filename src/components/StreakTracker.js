@@ -18,7 +18,7 @@ export default function StreakTracker() {
   return (
     <section className="bg-white p-6 rounded-lg shadow">
       <h2 className="text-xl font-bold mb-4">Streak Tracker 🔥</h2>
-      <p>You've been consistent for <strong>{days.size}</strong> days!</p>
+      <p>you&apos;ve been consistent for <strong>{days.size}</strong> days!</p>
     </section>
   );
 }
